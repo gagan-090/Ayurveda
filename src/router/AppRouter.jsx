@@ -6,10 +6,12 @@ import About from '../pages/public/About';
 import Remedies from '../pages/public/Remedies';
 import BookAppointment from '../pages/public/BookAppointment';
 import Testimonials from '../pages/public/Testimonials';
+import ScrollToTop from '../components/layout/ScrollToTop';
 
 export default function AppRouter() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
