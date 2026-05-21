@@ -1,0 +1,1 @@
+export default function AnimatedCounter() { return <div>Counter</div>; }

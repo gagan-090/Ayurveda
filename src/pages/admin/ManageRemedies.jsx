@@ -1,0 +1,1 @@
+export default function ManageRemedies() { return <div>ManageRemedies</div>; }

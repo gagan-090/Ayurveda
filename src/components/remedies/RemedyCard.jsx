@@ -1,0 +1,1 @@
+export default function RemedyCard() { return <div>RemedyCard</div>; }
