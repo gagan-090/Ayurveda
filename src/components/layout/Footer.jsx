@@ -7,15 +7,12 @@ export default function Footer() {
       <footer className="bg-surface-container border-t border-secondary/30 w-full mt-stack-lg">
         <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg grid grid-cols-1 md:grid-cols-4 gap-gutter">
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-3 mb-4">
+            <div className="flex items-center mb-4">
               <img 
-                src="/favicon.png" 
+                src="/main-logo.png" 
                 alt="Life Root Ayurveda Logo" 
-                className="h-12 w-auto object-contain" 
+                className="h-20 w-auto object-contain" 
               />
-              <span className="font-headline-md text-lg text-primary font-bold">
-                Life Root Ayurveda
-              </span>
             </div>
             <p className="text-on-surface-variant text-body-md opacity-80 italic">Consciously crafted wellness for the modern soul.</p>
           </div>

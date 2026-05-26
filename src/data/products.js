@@ -1,11 +1,11 @@
 export const PRODUCTS = [
   {
     id: 1,
-    name: "Bull-Men Power Booster",
-    tagline: "Balance • Strength • Vitality — The Ayurvedic Way",
-    image: "/assets/images/bull_men_booster.png",
-    price: 1299,
-    mrp: 1799,
+    name: "Sambhog Shakti",
+    tagline: "Ayurvedic Medicine for Vitality, Stamina & Performance",
+    image: "/assets/images/sambhog_shakti.png",
+    price: 5000,
+    mrp: 6999,
     discount: 28,
     category: "mens-health",
     badge: "Bestseller",
@@ -14,33 +14,33 @@ export const PRODUCTS = [
     rating: 4.8,
     reviewCount: 1247,
     inStock: true,
-    description: "A powerful Ayurvedic blend formulated for modern men who want to reclaim their strength, stamina, and vitality naturally. Crafted with ancient herbs tested over centuries.",
+    description: "An authentic Ayurvedic blend formulated for men to reclaim their stamina, strength, and vitality naturally. Crafted with ancient, pure herbs that target the root causes of physical weakness, daily exhaustion, and stress.",
     benefits: [
-      "Boosts physical strength and stamina",
-      "Enhances energy levels naturally",
-      "Supports hormonal balance",
-      "Improves confidence and performance",
-      "100% natural, no side effects"
+      "Improves Stamina & Strength",
+      "Enhances Performance & Timing",
+      "Boosts Energy & Confidence",
+      "Improves Sperm Quality & Motility",
+      "100% Ayurvedic, Safe & Effective"
     ],
     ingredients: [
-      { name: "Ashwagandha", amount: "500mg", benefit: "Stress relief & stamina" },
-      { name: "Shilajit", amount: "250mg", benefit: "Energy & vitality" },
-      { name: "Safed Musli", amount: "200mg", benefit: "Strength booster" },
-      { name: "Kaunch Beej", amount: "150mg", benefit: "Hormone support" },
-      { name: "Gokshura", amount: "100mg", benefit: "Physical performance" }
+      { name: "Ashwagandha", amount: "350mg", benefit: "Reduces stress & boosts stamina" },
+      { name: "Shilajit", amount: "200mg", benefit: "Deep cellular energy & vitality" },
+      { name: "Safed Musli", amount: "150mg", benefit: "Restores physical strength" },
+      { name: "Kaunch Beej", amount: "100mg", benefit: "Supports testosterone levels" },
+      { name: "Gokshura", amount: "100mg", benefit: "Improves blood flow & drive" }
     ],
-    usage: "Take 1 capsule twice daily with warm milk or water, preferably after meals. Continue for minimum 90 days.",
-    certifications: ["AYUSH Approved", "GMP Certified", "FSSAI", "ISO 9001"],
-    sku: "JKA-BMP-001"
+    usage: "Take 1 capsule twice daily with warm milk or water, preferably after meals. Continue for minimum 90 days for optimal results.",
+    certifications: ["AYUSH Approved", "GMP Certified", "FSSAI", "100% Herbal"],
+    sku: "LRA-SBS-001"
   },
   {
     id: 2,
-    name: "Stambhan Plus",
-    tagline: "Natural Support for Harder, Longer Performance",
-    image: "/assets/images/stambhan_plus.png",
-    price: 1499,
-    mrp: 1999,
-    discount: 25,
+    name: "Play Harder",
+    tagline: "Ayurvedic Power for Peak Performance",
+    image: "/assets/images/play_harder.png",
+    price: 7000,
+    mrp: 9999,
+    discount: 30,
     category: "mens-health",
     badge: "Top Rated",
     badgeColor: "#2D6A4F",
@@ -48,66 +48,32 @@ export const PRODUCTS = [
     rating: 4.9,
     reviewCount: 986,
     inStock: true,
-    description: "Stambhan Plus is an advanced Ayurvedic formulation to address performance concerns naturally. Using time-tested herbs, it works at the root level to restore natural capability.",
+    description: "A premium Ayurvedic power formulation designed to unleash peak athletic and physical performance. Specially crafted with rare medicinal roots and extracts to maximize energy, endurance, and hormonal health.",
     benefits: [
-      "Supports natural performance enhancement",
-      "Reduces stress-related performance anxiety",
-      "Improves blood circulation",
-      "Strengthens nervous system",
-      "Long-lasting natural results"
+      "Boosts Stamina & Strength",
+      "Enhances Performance & Timing",
+      "Improves Sperm Quality & Motility",
+      "Increases Energy & Confidence",
+      "100% Ayurvedic, Safe & Effective"
     ],
     ingredients: [
-      { name: "Akarkara", amount: "300mg", benefit: "Performance enhancer" },
-      { name: "Vidarikand", amount: "250mg", benefit: "Rejuvenation" },
-      { name: "Ashwagandha", amount: "200mg", benefit: "Stress reduction" },
-      { name: "Jaiphal", amount: "150mg", benefit: "Circulation boost" },
-      { name: "Lavang", amount: "100mg", benefit: "Nerve tonic" }
+      { name: "Kida Jadi (Cordyceps)", amount: "150mg", benefit: "Boosts stamina & physical performance" },
+      { name: "Mulando", amount: "250mg", benefit: "Enhances strength & reproductive health" },
+      { name: "Maca Root", amount: "200mg", benefit: "Supports energy, endurance & hormonal balance" },
+      { name: "Ashwagandha", amount: "200mg", benefit: "Reduces anxiety & builds stamina" },
+      { name: "Shilajit", amount: "100mg", benefit: "Cellular rejuvenation & energy" }
     ],
-    usage: "Take 1 capsule with warm milk 45 minutes before sleep. For best results continue for 90 days.",
+    usage: "Take 1 capsule with warm milk or water 45 minutes before sleep. For best results, use consistently for 90 days.",
     certifications: ["AYUSH Approved", "GMP Certified", "FSSAI"],
-    sku: "JKA-STP-002"
+    sku: "LRA-PLH-002"
   },
   {
     id: 3,
-    name: "Power 69 Pro",
-    tagline: "For Vitality, Energy & Unshakeable Confidence",
-    image: "/assets/images/power_69_pro.png",
-    price: 999,
-    mrp: 1399,
-    discount: 29,
-    category: "mens-health",
-    badge: "New",
-    badgeColor: "#3B82F6",
-    capsules: 30,
-    rating: 4.7,
-    reviewCount: 634,
-    inStock: true,
-    description: "Power 69 Pro combines 12 powerful Ayurvedic herbs to deliver consistent energy, mental clarity, and physical vitality. Ideal for men aged 25-55 looking for a natural edge.",
-    benefits: [
-      "All-day energy without caffeine crashes",
-      "Supports healthy testosterone levels",
-      "Mental clarity and focus",
-      "Reduces fatigue and weakness",
-      "Builds inner strength gradually"
-    ],
-    ingredients: [
-      { name: "Shatavari", amount: "300mg", benefit: "Vitality & rejuvenation" },
-      { name: "Musli Pak", amount: "250mg", benefit: "Strength builder" },
-      { name: "Giloy", amount: "200mg", benefit: "Immunity booster" },
-      { name: "Brahmi", amount: "150mg", benefit: "Mental clarity" },
-      { name: "Triphala", amount: "100mg", benefit: "Detox & digestion" }
-    ],
-    usage: "Take 2 capsules daily — 1 morning, 1 evening — with lukewarm water. Best taken on empty stomach.",
-    certifications: ["AYUSH Approved", "FSSAI", "ISO 9001"],
-    sku: "JKA-P69-003"
-  },
-  {
-    id: 4,
-    name: "Gorilla Power Pro",
-    tagline: "Stay Hard, Perform Hard — Natural Vitality Booster",
-    image: "/assets/images/gorilla_power.png",
-    price: 1199,
-    mrp: 1599,
+    name: "Vajra Plus+",
+    tagline: "Ayurvedic Medicine for Vitality & Performance",
+    image: "/assets/images/vajra.png",
+    price: 3000,
+    mrp: 3999,
     discount: 25,
     category: "mens-health",
     badge: "Popular",
@@ -116,23 +82,58 @@ export const PRODUCTS = [
     rating: 4.8,
     reviewCount: 812,
     inStock: true,
-    description: "Gorilla Power Pro is the ultimate Ayurvedic formula for men who demand peak performance. Inspired by ancient warrior wellness traditions, this powerful blend fuels body and mind.",
+    description: "A classical restorative formula that strengthens the nervous system, supports healthy testosterone levels, and boosts overall endurance. Made from 100% pure organic Ayurvedic extracts with zero chemical additives.",
     benefits: [
-      "Peak physical performance support",
-      "Deep cellular energy production",
-      "Testosterone-level maintenance",
-      "Improves endurance and stamina",
-      "Promotes healthy libido naturally"
+      "Improves Sperm Motility",
+      "Improves Erection & Time",
+      "100% Ayurvedic, No Side Effects",
+      "Improves Quality & Quantity of Semen",
+      "Increases Level of Testosterone Hormone"
     ],
     ingredients: [
-      { name: "Shilajit Resin", amount: "400mg", benefit: "Mitochondrial energy" },
-      { name: "Ashwagandha KSM-66", amount: "300mg", benefit: "Adaptogen" },
-      { name: "Mucuna Pruriens", amount: "200mg", benefit: "Dopamine support" },
-      { name: "Tribulus", amount: "150mg", benefit: "Testosterone support" },
-      { name: "Black Pepper Extract", amount: "10mg", benefit: "Bioavailability" }
+      { name: "Shatavari", amount: "250mg", benefit: "Nourishes reproductive tissues" },
+      { name: "Gokshura", amount: "200mg", benefit: "Supports healthy testosterone" },
+      { name: "Ashwagandha", amount: "200mg", benefit: "Stamina and strength booster" },
+      { name: "Jaiphal", amount: "100mg", benefit: "Improves circulation and focus" },
+      { name: "Lavang", amount: "50mg", benefit: "Nerve tonic and rejuvenator" }
     ],
-    usage: "Take 1 capsule twice daily with warm milk. Avoid taking on empty stomach. Minimum 60-day course.",
-    certifications: ["AYUSH Approved", "GMP Certified", "FSSAI", "HACCP"],
-    sku: "JKA-GPP-004"
+    usage: "Take 1 capsule twice daily with warm milk, preferably after breakfast and dinner. Course duration: 60-90 days.",
+    certifications: ["AYUSH Approved", "GMP Certified", "FSSAI"],
+    sku: "LRA-VJP-003"
+  },
+  {
+    id: 4,
+    name: "Stay Longer",
+    tagline: "Natural Power. Longer Performance.",
+    image: "/assets/images/stay_longer.png",
+    price: 7000,
+    mrp: 9999,
+    discount: 30,
+    category: "mens-health",
+    badge: "New",
+    badgeColor: "#3B82F6",
+    capsules: 30,
+    rating: 4.7,
+    reviewCount: 634,
+    inStock: true,
+    description: "A comprehensive formulation combining 9 powerful Ayurvedic and global adaptogenic ingredients to support long-term vitality, sustained performance, and reduced daily stress levels.",
+    benefits: [
+      "Boosts Stamina & Strength",
+      "Enhances Performance & Timing",
+      "Improves Sperm Quality & Motility",
+      "Increases Energy & Confidence",
+      "Reduces Stress & Supports Wellness",
+      "100% Ayurvedic, Safe & Effective"
+    ],
+    ingredients: [
+      { name: "Ashwagandha", amount: "200mg", benefit: "Boosts stamina & reduces cortisol" },
+      { name: "Shilajit", amount: "150mg", benefit: "Enhances energy & longevity" },
+      { name: "Safed Musli", amount: "100mg", benefit: "Supports reproductive health" },
+      { name: "Tongkat Ali", amount: "100mg", benefit: "Improves testosterone levels & athletic performance" },
+      { name: "Maca Root", amount: "100mg", benefit: "Supports endurance & balance" }
+    ],
+    usage: "Take 1-2 capsules daily with lukewarm water or warm milk, preferably after meals. Recommend a 90-day course.",
+    certifications: ["AYUSH Approved", "GMP Certified", "FSSAI", "ISO 9001"],
+    sku: "LRA-STL-004"
   }
 ];

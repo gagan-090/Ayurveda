@@ -21,15 +21,12 @@ export default function Navbar() {
       <header className="fixed w-full top-0 left-0 bg-[#faf9f5]/95 backdrop-blur-xl border-b border-secondary/30 shadow-md z-50">
         <nav className="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to="/" className="flex items-center group">
             <img 
-              src="/favicon.png" 
+              src="/main-logo.png" 
               alt="Life Root Ayurveda Logo" 
-              className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+              className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
             />
-            <span className="font-headline-sm text-base md:text-lg text-primary font-bold tracking-tight">
-              Life Root Ayurveda
-            </span>
           </Link>
 
           {/* Desktop Nav Links */}
