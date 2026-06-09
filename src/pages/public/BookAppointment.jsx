@@ -200,23 +200,23 @@ export default function BookAppointment() {
           {/* Info Side */}
           <div className="lg:col-span-5 space-y-6">
             <div className="glass-card p-8 rounded-2xl border border-outline-variant/30 bg-white">
-              <h3 className="font-headline-sm text-lg text-primary font-bold mb-6">Our Clinic Location</h3>
+              <h3 className="font-headline-sm text-lg text-primary font-bold mb-6">Our Office Location</h3>
               <div className="space-y-4 text-sm text-on-surface-variant">
                 <div className="flex items-start gap-4">
                   <span className="material-symbols-outlined text-secondary mt-0.5">location_on</span>
                   <p className="leading-relaxed">
-                    <strong>Life Root Ayurveda Clinic</strong><br />
-                    12, Green Meadow Residency, Near Lotus Pond,<br />
-                    Jayanagar 4th Block, Bengaluru, KA - 560011
+                    <strong>Marketed by - Life Root Ayurveda</strong><br />
+                    B-81, Sector-63 Noida,<br />
+                    Uttar Pradesh 201301
                   </p>
                 </div>
                 <div className="flex items-start gap-4">
                   <span className="material-symbols-outlined text-secondary mt-0.5">call</span>
-                  <p>+91 80 4567 8901 / +91 98765 43210</p>
+                  <p><a href="tel:+916387742417" className="hover:text-secondary transition-colors">+91 63877 42417</a></p>
                 </div>
                 <div className="flex items-start gap-4">
                   <span className="material-symbols-outlined text-secondary mt-0.5">mail</span>
-                  <p>consult@liferootayurveda.in</p>
+                  <p><a href="mailto:liferootayurveda1@gmail.com" className="hover:text-secondary transition-colors">liferootayurveda1@gmail.com</a></p>
                 </div>
               </div>
             </div>

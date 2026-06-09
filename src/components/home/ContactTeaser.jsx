@@ -52,10 +52,11 @@ export default function ContactTeaser() {
           />
           <div className="absolute inset-0 bg-primary/80 backdrop-blur-[1px] flex flex-col items-center justify-center text-center p-8 text-on-primary">
             <span className="material-symbols-outlined text-5xl text-secondary mb-4">location_on</span>
-            <p className="font-headline-sm text-headline-sm text-white font-semibold mb-2">Our Haridwar HQ Clinic</p>
+            <p className="font-headline-sm text-headline-sm text-white font-semibold mb-2">Our Office Location</p>
             <p className="text-sm text-primary-fixed/80 leading-relaxed font-light">
-              Ganga View Clinical Plaza, Suite 108<br />
-              Haridwar, Uttarakhand, India
+              Marketed by - Life Root Ayurveda<br />
+              B-81, Sector-63 Noida<br />
+              Uttar Pradesh 201301
             </p>
             <p className="text-xs text-secondary-fixed mt-4 tracking-wider font-semibold uppercase">In-person &amp; Tele-medicine consultations</p>
           </div>
